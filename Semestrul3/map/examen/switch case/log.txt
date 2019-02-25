@@ -1,0 +1,76 @@
+ProgramId:1
+ExeStack:
+
+Print(300)
+((a=1;b=2);(c=5;switch(a*10)(case a*b:(Print(a);Print(b)))(case 10:(Print(100);Print(300)))(default:Print(300)))
+SymbolTable:
+
+Output list:
+FileTable: 
+ProgramId:1
+ExeStack:
+
+Print(300)
+(c=5;switch(a*10)(case a*b:(Print(a);Print(b)))(case 10:(Print(100);Print(300)))(default:Print(300))
+(a=1;b=2)
+SymbolTable:
+
+Output list:
+FileTable: 
+ProgramId:1
+ExeStack:
+
+Print(300)
+(c=5;switch(a*10)(case a*b:(Print(a);Print(b)))(case 10:(Print(100);Print(300)))(default:Print(300))
+b=2
+a=1
+SymbolTable:
+
+Output list:
+FileTable: 
+ProgramId:1
+ExeStack:
+
+Print(300)
+(c=5;switch(a*10)(case a*b:(Print(a);Print(b)))(case 10:(Print(100);Print(300)))(default:Print(300))
+b=2
+SymbolTable:
+
+a->1
+Output list:
+FileTable: 
+ProgramId:1
+ExeStack:
+
+Print(300)
+(c=5;switch(a*10)(case a*b:(Print(a);Print(b)))(case 10:(Print(100);Print(300)))(default:Print(300))
+SymbolTable:
+
+a->1
+b->2
+Output list:
+FileTable: 
+ProgramId:1
+ExeStack:
+
+Print(300)
+switch(a*10)(case a*b:(Print(a);Print(b)))(case 10:(Print(100);Print(300)))(default:Print(300)
+c=5
+SymbolTable:
+
+a->1
+b->2
+Output list:
+FileTable: 
+ProgramId:1
+ExeStack:
+
+Print(300)
+switch(a*10)(case a*b:(Print(a);Print(b)))(case 10:(Print(100);Print(300)))(default:Print(300)
+SymbolTable:
+
+a->1
+b->2
+c->5
+Output list:
+FileTable: 
