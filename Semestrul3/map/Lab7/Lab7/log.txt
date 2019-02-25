@@ -1,0 +1,2264 @@
+﻿ExeStack:
+
+((OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f));(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+))
+CloseFile(var_f)
+
+(v=2;print(v)
+)
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+(OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f))
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+(v=2;print(v)
+)
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in)
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+(v=2;print(v)
+)
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+(v=2;print(v)
+)
+SymbolTable:
+
+var_f->1
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+(v=2;print(v)
+)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+(v=2;print(v)
+)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+(v=2;print(v)
+)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(ReadFileStatement(var_c,var_f);print(var_c)
+)
+CloseFile(var_f)
+
+(v=2;print(v)
+)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+print(var_c)
+
+CloseFile(var_f)
+
+(v=2;print(v)
+)
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+CloseFile(var_f)
+
+(v=2;print(v)
+)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+CloseFile(var_f)
+
+(v=2;print(v)
+)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(v=2;print(v)
+)
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+ExeStack:
+
+v=2
+print(v)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+ExeStack:
+
+print(v)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+v->2
+Output list:
+15
+50
+File Table:
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+v->2
+Output list:
+15
+50
+2
+File Table:
+ExeStack:
+
+((OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f));(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+(OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f))
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in)
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(ReadFileStatement(var_c,var_f);print(var_c)
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+print(var_c)
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+ExeStack:
+
+((OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f));(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+(OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f))
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in)
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(ReadFileStatement(var_c,var_f);print(var_c)
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+print(var_c)
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+ExeStack:
+
+((OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f));(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+(OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f))
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in)
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(ReadFileStatement(var_c,var_f);print(var_c)
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+print(var_c)
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+ExeStack:
+
+((OpenFileStatement(var_ftest.in);ReadFileStatement(var_c,var_f));(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+(OpenFileStatement(var_ftest.in);ReadFileStatement(var_c,var_f))
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+OpenFileStatement(var_ftest.in)
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+((OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f));(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+(OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f))
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in)
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(ReadFileStatement(var_c,var_f);print(var_c)
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+print(var_c)
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+ExeStack:
+
+((OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f));(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+(OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f))
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in)
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(ReadFileStatement(var_c,var_f);print(var_c)
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+print(var_c)
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+ExeStack:
+
+((OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f));(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+(OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_c,var_f))
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+OpenFileStatement(var_fD:\Semestrul3\map\Lab7\Lab7\test.in)
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(print(var_c)
+;if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+if(var_c{(ReadFileStatement(var_c,var_f);print(var_c)
+)}else{print(0)
+}
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(ReadFileStatement(var_c,var_f);print(var_c)
+)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+ReadFileStatement(var_c,var_f)
+print(var_c)
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+ExeStack:
+
+v=2
+print(v)
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+print(v)
+SymbolTable:
+
+v->2
+Output list:
+File Table:
+ExeStack:
+
+SymbolTable:
+
+v->2
+Output list:
+2
+File Table:
+ExeStack:
+
+((OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_f,var_c));(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	}))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+(OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_f,var_c))
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in)
+ReadFileStatement(var_f,var_c)
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+ReadFileStatement(var_f,var_c)
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	}
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	}
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(ReadFileStatement(var_f,var_c);print(var_c))
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+ReadFileStatement(var_f,var_c)
+print(var_c)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+ExeStack:
+
+((if(var_c)
+	{
+		(print(var_c);ReadFileStatement(var_f,var_c))
+	}
+	else{
+		print(0)
+	};print(var_c));(ReadFileStatement(var_f,var_c);OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in)))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+(ReadFileStatement(var_f,var_c);OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in))
+(if(var_c)
+	{
+		(print(var_c);ReadFileStatement(var_f,var_c))
+	}
+	else{
+		print(0)
+	};print(var_c))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in)
+ReadFileStatement(var_f,var_c)
+(if(var_c)
+	{
+		(print(var_c);ReadFileStatement(var_f,var_c))
+	}
+	else{
+		print(0)
+	};print(var_c))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+ReadFileStatement(var_f,var_c)
+(if(var_c)
+	{
+		(print(var_c);ReadFileStatement(var_f,var_c))
+	}
+	else{
+		print(0)
+	};print(var_c))
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(if(var_c)
+	{
+		(print(var_c);ReadFileStatement(var_f,var_c))
+	}
+	else{
+		print(0)
+	};print(var_c))
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+if(var_c)
+	{
+		(print(var_c);ReadFileStatement(var_f,var_c))
+	}
+	else{
+		print(0)
+	}
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+if(var_c)
+	{
+		(print(var_c);ReadFileStatement(var_f,var_c))
+	}
+	else{
+		print(0)
+	}
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(print(var_c);ReadFileStatement(var_f,var_c))
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+ReadFileStatement(var_f,var_c)
+print(var_c)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+ExeStack:
+
+((OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_f,var_c));(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	}))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+(OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_f,var_c))
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in)
+ReadFileStatement(var_f,var_c)
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+ReadFileStatement(var_f,var_c)
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	}
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	}
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(ReadFileStatement(var_f,var_c);print(var_c))
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+ReadFileStatement(var_f,var_c)
+print(var_c)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+ExeStack:
+
+((OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_f,var_c));(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	}))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+(OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_f,var_c))
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in)
+ReadFileStatement(var_f,var_c)
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+ReadFileStatement(var_f,var_c)
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	}
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	}
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(ReadFileStatement(var_f,var_c);print(var_c))
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+ReadFileStatement(var_f,var_c)
+print(var_c)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+ExeStack:
+
+((OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_f,var_c));(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	}))
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+(OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in);ReadFileStatement(var_f,var_c))
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+OpenFileStatement(var_f,D:\Semestrul3\map\Lab7\Lab7\test.in)
+ReadFileStatement(var_f,var_c)
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+Output list:
+File Table:
+ExeStack:
+
+ReadFileStatement(var_f,var_c)
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(print(var_c);if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	})
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	}
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+if(var_c)
+	{
+		(ReadFileStatement(var_f,var_c);print(var_c))
+	}
+	else{
+		print(0)
+	}
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+(ReadFileStatement(var_f,var_c);print(var_c))
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+ReadFileStatement(var_f,var_c)
+print(var_c)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->15
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+print(var_c)
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+CloseFile(var_f)
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
+1->D:\Semestrul3\map\Lab7\Lab7\test.in
+ExeStack:
+
+SymbolTable:
+
+var_f->1
+var_c->50
+Output list:
+15
+50
+File Table:
