@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="Anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MyFXController">
+   <children>
+      <ListView fx:id="MenuList" layoutX="15.0" layoutY="35.0" prefHeight="80.0" prefWidth="576.0" />
+      <Label fx:id="MenuLabel" layoutX="15.0" layoutY="14.0" text="Menu" />
+      <Label layoutX="359.0" layoutY="495.0" text="Finished Program States" />
+      <TextField fx:id="ProgramStateText" layoutX="361.0" layoutY="520.0" prefHeight="31.0" prefWidth="160.0" />
+      <TableView fx:id="HeapTable" layoutX="15.0" layoutY="135.0" prefHeight="176.0" prefWidth="193.0">
+        <columns>
+          <TableColumn fx:id="HeapK" prefWidth="70.0" text="Address" />
+          <TableColumn fx:id="HeapV" prefWidth="122.0" text="Value" />
+        </columns>
+      </TableView>
+      <Label layoutX="87.0" layoutY="116.0" prefWidth="49.0" text="Heap" />
+      <ListView fx:id="OutputList" layoutX="15.0" layoutY="334.0" prefHeight="145.0" prefWidth="303.0" />
+      <Label layoutX="123.0" layoutY="311.0" text="Output" />
+      <TableView fx:id="FileTable" layoutX="231.0" layoutY="135.0" prefHeight="176.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="FileK" prefWidth="76.0" text="Identifier" />
+          <TableColumn fx:id="FileV" prefWidth="123.0" text="File" />
+        </columns>
+      </TableView>
+      <Label layoutX="302.0" layoutY="116.0" text="FileTable" />
+      <ListView fx:id="ProgramIDList" layoutX="536.0" layoutY="499.0" onMousePressed="#modifySelectedID" prefHeight="73.0" prefWidth="94.0" />
+      <Label layoutX="540.0" layoutY="479.0" text="Program ID's" />
+      <TableView fx:id="SymbolTable" layoutX="454.0" layoutY="135.0" prefHeight="176.0" prefWidth="193.0">
+        <columns>
+          <TableColumn fx:id="SymK" prefWidth="75.0" text="Variable" />
+          <TableColumn fx:id="SymV" prefWidth="117.0" text="Value" />
+        </columns>
+      </TableView>
+      <ListView fx:id="StackList" layoutX="346.0" layoutY="334.0" prefHeight="145.0" prefWidth="303.0" />
+      <Label layoutX="478.0" layoutY="311.0" text="ExeStack" />
+      <Label layoutX="508.0" layoutY="116.0" text="SymbolTable" />
+      <Button fx:id="OneStepButton" layoutX="54.0" layoutY="505.0" mnemonicParsing="false" onAction="#oneStep" prefHeight="31.0" prefWidth="217.0" text="OneStep" />
+      <Button fx:id="RunButton" layoutX="594.0" layoutY="53.0" mnemonicParsing="false" onAction="#runButtonAction" prefHeight="45.0" prefWidth="65.0" text="Run" />
+   </children>
+</AnchorPane>
