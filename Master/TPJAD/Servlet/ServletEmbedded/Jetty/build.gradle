@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies { compile 'org.eclipse.jetty:jetty-server:9.4.3.v20170317',
+        'org.eclipse.jetty:jetty-servlet:9.4.3.v20170317' }
+jar {
+    manifest { attributes 'Main-Class': 'JettyServer' }
+    from(configurations.compile.collect { it.isDirectory() ? it : zipTree(it) })
+}

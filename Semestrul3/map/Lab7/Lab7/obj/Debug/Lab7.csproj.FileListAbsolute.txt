@@ -1,7 +1,0 @@
-D:\Semestrul3\map\Lab7\Lab7\bin\Debug\Lab7.exe.config
-D:\Semestrul3\map\Lab7\Lab7\bin\Debug\Lab7.exe
-D:\Semestrul3\map\Lab7\Lab7\bin\Debug\Lab7.pdb
-D:\Semestrul3\map\Lab7\Lab7\obj\Debug\Lab7.csprojResolveAssemblyReference.cache
-D:\Semestrul3\map\Lab7\Lab7\obj\Debug\Lab7.csproj.CoreCompileInputs.cache
-D:\Semestrul3\map\Lab7\Lab7\obj\Debug\Lab7.exe
-D:\Semestrul3\map\Lab7\Lab7\obj\Debug\Lab7.pdb

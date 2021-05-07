@@ -1,0 +1,36 @@
+                                                                             Grammar
+   
+
+
+   G = (N, E, P, S)
+
+   N = {identifier, identifierbuilder, letter, digit, nonzero, nrconst, nr, nb, realconst, booleanconst, char, string, stringbuilder, program, decllist, 
+        declaration, type1, arraydecl, type, cmpdstmt, stmtlist, stmt, simplstmt, assignstmt, expression, term, factor, iostmt, structstmt, ifstmt, whilestmt, condition}
+
+   E = { A-Z, a-z, 0-9, int, bool, float, char, string, return , read, write, for, while,  if,  else, VAR ,&&,  ||, !,  ;,  ,,  -,   +,   /,  *,  =, =, =,  ==, (,  ), {, }, [, ], ", '  }
+
+   P = {
+       program -> VAR decllist ; cmpdstmt .
+   decllist -> declaration | declaration ; decllist
+   declaration -> type  identifier
+      type1 -> boolean | char | integer | float | string
+  arraydecl -> type1 IDENTIFIER [ nr ]
+      type  -> type1|arraydecl
+   cmpdstmt -> stmtlist
+   stmtlist -> stmt | stmt ; stmtlist
+       stmt -> simplstmt | structstmt
+  simplstmt -> assignstmt | iostmt
+ assignstmt -> IDENTIFIER = expression
+ expression -> term + expression | term - expression  | term
+       term -> factor * term | factor / term | factor
+     factor -> ( expression ) | IDENTIFIER | int | float  
+     iostmt -> READ( IDENTIFIER ) | WRITE( expression )
+ structstmt -> cmpdstmt | ifstmt | whilestmt
+     ifstmt -> IF (condition) cmpdstmt | IF (condition) cmpdstmt ELSE cmpdstmt
+  whilestmt -> WHILE (condition) cmpdstmt
+  condition -> expression RELATION expression 
+  relation = < | <= | == | != | >= | > 
+  
+}
+
+ S = program

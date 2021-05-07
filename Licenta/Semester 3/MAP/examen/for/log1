@@ -1,0 +1,11728 @@
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(v,20); (new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(v,20); (new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(v,20)
+(new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0))))
+
+SymTable:
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(wR(a,30); (print(a); (print(rH(a)); a=0)))
+
+SymTable:
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(wR(a,30); (print(a); (print(rH(a)); a=0)))
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+wR(a,30)
+(print(a); (print(rH(a)); a=0))
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(a); (print(rH(a)); a=0))
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(a)
+(print(rH(a)); a=0)
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(rH(a)); a=0)
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+2
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+a=0
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+2
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+a=0
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+2
+30
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 0
+v : 1
+
+Out:
+2
+30
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(v,20); (new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(v,20); (new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(v,20)
+(new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0))))
+
+SymTable:
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(wR(a,30); (print(a); (print(rH(a)); a=0)))
+
+SymTable:
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(wR(a,30); (print(a); (print(rH(a)); a=0)))
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+wR(a,30)
+(print(a); (print(rH(a)); a=0))
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(a); (print(rH(a)); a=0))
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(a)
+(print(rH(a)); a=0)
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(rH(a)); a=0)
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+2
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+a=0
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+2
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+a=0
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+2
+30
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 0
+v : 1
+
+Out:
+2
+30
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+a=2-2
+(if(a) then(v=2)else(v=3); print(v))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(a) then(v=2)else(v=3); print(v))
+
+SymTable:
+a : 0
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(a) then(v=2)else(v=3)
+print(v)
+
+SymTable:
+a : 0
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=3
+print(v)
+
+SymTable:
+a : 0
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+
+SymTable:
+a : 0
+v : 3
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 0
+v : 3
+
+Out:
+3
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+a=2+3*5
+(b=a+1; print(b))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(b=a+1; print(b))
+
+SymTable:
+a : 17
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+b=a+1
+print(b)
+
+SymTable:
+a : 17
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(b)
+
+SymTable:
+a : 17
+b : 18
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 17
+b : 18
+
+Out:
+18
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\lab14\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@7a13c58d
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@13739ef4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\lab14\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@5e4bb1b1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\lab14\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3ec8fd25
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@71255a89
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@30d154e2
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@11d080b3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=2
+print(c)
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(c)
+
+SymTable:
+v : 2
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+v : 2
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+v : 2
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=2
+print(c)
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(c)
+
+SymTable:
+v : 2
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+v : 2
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=2
+print(v)
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+
+SymTable:
+v : 2
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+v : 2
+
+Out:
+2
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+a=2+3*5
+(b=a+1; print(b))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(b=a+1; print(b))
+
+SymTable:
+a : 17
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+b=a+1
+print(b)
+
+SymTable:
+a : 17
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(b)
+
+SymTable:
+a : 17
+b : 18
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 17
+b : 18
+
+Out:
+18
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+a=2-2
+(if(a) then(v=2)else(v=3); print(v))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(a) then(v=2)else(v=3); print(v))
+
+SymTable:
+a : 0
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(a) then(v=2)else(v=3)
+print(v)
+
+SymTable:
+a : 0
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=3
+print(v)
+
+SymTable:
+a : 0
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+
+SymTable:
+a : 0
+v : 3
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 0
+v : 3
+
+Out:
+3
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@508c9ca2
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(v,20); (new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(v,20); (new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(v,20)
+(new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0))))
+
+SymTable:
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(wR(a,30); (print(a); (print(rH(a)); a=0)))
+
+SymTable:
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(wR(a,30); (print(a); (print(rH(a)); a=0)))
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+wR(a,30)
+(print(a); (print(rH(a)); a=0))
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(a); (print(rH(a)); a=0))
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(a)
+(print(rH(a)); a=0)
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(rH(a)); a=0)
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+2
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+a=0
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+2
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+a=0
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+2
+30
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 0
+v : 1
+
+Out:
+2
+30
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=7
+(while(v-4)(print(v); v=v-1); print(v))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(while(v-4)(print(v); v=v-1); print(v))
+
+SymTable:
+v : 7
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 7
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); v=v-1)
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 7
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 7
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 7
+
+Out:
+7
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 6
+
+Out:
+7
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); v=v-1)
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 6
+
+Out:
+7
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 6
+
+Out:
+7
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 6
+
+Out:
+7
+6
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 5
+
+Out:
+7
+6
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); v=v-1)
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 5
+
+Out:
+7
+6
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 5
+
+Out:
+7
+6
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 5
+
+Out:
+7
+6
+5
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 4
+
+Out:
+7
+6
+5
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+
+SymTable:
+v : 4
+
+Out:
+7
+6
+5
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+v : 4
+
+Out:
+7
+6
+5
+4
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@82bd1ea
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@7b21f2b3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@1095f318
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@327ffca1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@327ffca1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@327ffca1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@327ffca1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@327ffca1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@327ffca1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@327ffca1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@327ffca1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@327ffca1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@327ffca1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@2e8e180b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@2e8e180b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@2e8e180b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@2e8e180b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@2e8e180b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@2e8e180b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@2e8e180b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@2e8e180b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@2e8e180b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@2e8e180b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@71255a89
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@62f7f4ce
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@62f7f4ce
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@62f7f4ce
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@62f7f4ce
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@62f7f4ce
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@62f7f4ce
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@62f7f4ce
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@62f7f4ce
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@62f7f4ce
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@62f7f4ce
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@6b63d32b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@369fa762
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@351b40fc
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@5c47d2b2
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@369fa762
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@198f3e61
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3b0a1aee
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@53e85684
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@35f0ce68
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@35f0ce68
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@35f0ce68
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@35f0ce68
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@35f0ce68
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@35f0ce68
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@35f0ce68
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@35f0ce68
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@35f0ce68
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@35f0ce68
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@63379eb3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@63379eb3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@63379eb3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4604cf9b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4604cf9b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4604cf9b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4604cf9b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4604cf9b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4604cf9b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4604cf9b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4604cf9b
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3c56e1b3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3c56e1b3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3c56e1b3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3c56e1b3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3c56e1b3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3c56e1b3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3c56e1b3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3c56e1b3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3c56e1b3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3c56e1b3
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@57fe22ec
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@15db79b1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@15db79b1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@15db79b1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@15db79b1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@15db79b1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@15db79b1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@15db79b1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@15db79b1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@15db79b1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@15db79b1
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@41b722d7
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@41b722d7
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@41b722d7
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@41b722d7
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@41b722d7
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@41b722d7
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@41b722d7
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@41b722d7
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@41b722d7
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@41b722d7
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@1dbe02e8
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3b868ac4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3b868ac4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3b868ac4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3b868ac4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3b868ac4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3b868ac4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3b868ac4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3b868ac4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3b868ac4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3b868ac4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@70466628
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@3b0a1aee
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@6f3f05aa
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@6f3f05aa
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@6f3f05aa
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@6f3f05aa
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@6f3f05aa
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@6f3f05aa
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@6f3f05aa
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@6f3f05aa
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@6f3f05aa
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@6f3f05aa
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Work\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=7
+(while(v-4)(print(v); v=v-1); print(v))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(while(v-4)(print(v); v=v-1); print(v))
+
+SymTable:
+v : 7
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 7
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); v=v-1)
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 7
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 7
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 7
+
+Out:
+7
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 6
+
+Out:
+7
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); v=v-1)
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 6
+
+Out:
+7
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 6
+
+Out:
+7
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 6
+
+Out:
+7
+6
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 5
+
+Out:
+7
+6
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); v=v-1)
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 5
+
+Out:
+7
+6
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 5
+
+Out:
+7
+6
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 5
+
+Out:
+7
+6
+5
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 4
+
+Out:
+7
+6
+5
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+
+SymTable:
+v : 4
+
+Out:
+7
+6
+5
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+v : 4
+
+Out:
+7
+6
+5
+4
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Assignment8\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@1dbe02e8
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@1dbe02e8
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@1dbe02e8
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@1dbe02e8
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@1dbe02e8
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@1dbe02e8
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@1dbe02e8
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@1dbe02e8
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@1dbe02e8
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@1dbe02e8
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Assignment8\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@be258a4
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\Assignment8\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4e1d18d5
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4e1d18d5
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4e1d18d5
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4e1d18d5
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4e1d18d5
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4e1d18d5
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4e1d18d5
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4e1d18d5
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4e1d18d5
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@4e1d18d5
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+a=2-2
+(if(a) then(v=2)else(v=3); print(v))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(a) then(v=2)else(v=3); print(v))
+
+SymTable:
+a : 0
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(a) then(v=2)else(v=3)
+print(v)
+
+SymTable:
+a : 0
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=3
+print(v)
+
+SymTable:
+a : 0
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+
+SymTable:
+a : 0
+v : 3
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 0
+v : 3
+
+Out:
+3
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=7
+(while(v-4)(print(v); v=v-1); print(v))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(while(v-4)(print(v); v=v-1); print(v))
+
+SymTable:
+v : 7
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 7
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); v=v-1)
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 7
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 7
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 7
+
+Out:
+7
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 6
+
+Out:
+7
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); v=v-1)
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 6
+
+Out:
+7
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 6
+
+Out:
+7
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 6
+
+Out:
+7
+6
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 5
+
+Out:
+7
+6
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); v=v-1)
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 5
+
+Out:
+7
+6
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 5
+
+Out:
+7
+6
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=v-1
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 5
+
+Out:
+7
+6
+5
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+while(v-4)(print(v); v=v-1)
+print(v)
+
+SymTable:
+v : 4
+
+Out:
+7
+6
+5
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+
+SymTable:
+v : 4
+
+Out:
+7
+6
+5
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+v : 4
+
+Out:
+7
+6
+5
+4
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=2
+print(v)
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+
+SymTable:
+v : 2
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+v : 2
+
+Out:
+2
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\lab14\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@29e6c632
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@29e6c632
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@29e6c632
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@29e6c632
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@29e6c632
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@29e6c632
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@29e6c632
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@29e6c632
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@29e6c632
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@29e6c632
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+OpenFile(var_f,C:\Users\pechd\IdeaProjects\lab14\Example.txt)
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); (print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@46333404
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@46333404
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(var_c); (if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f)))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@46333404
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@46333404
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0)); close(var_f))
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@46333404
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+if(var_c) then((ReadFile(var_f,var_c); print(var_c)))else(print(0))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@46333404
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(ReadFile(var_f,var_c); print(var_c))
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@46333404
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+ReadFile(var_f,var_c)
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 15
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@46333404
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(var_c)
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@46333404
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+close(var_f)
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@46333404
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+var_c : 50
+
+Out:
+15
+50
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+var_f : 0
+
+Out:
+
+Heap:
+
+FileTable:
+0 : java.io.BufferedReader@10d08a83
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(v,20); (new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(v,20); (new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(v,20)
+(new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (wR(a,30); (print(a); (print(rH(a)); a=0))))
+
+SymTable:
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(wR(a,30); (print(a); (print(rH(a)); a=0)))
+
+SymTable:
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(wR(a,30); (print(a); (print(rH(a)); a=0)))
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+wR(a,30)
+(print(a); (print(rH(a)); a=0))
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(a); (print(rH(a)); a=0))
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(a)
+(print(rH(a)); a=0)
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(rH(a)); a=0)
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+2
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+a=0
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+2
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+a=0
+
+SymTable:
+a : 2
+v : 1
+
+Out:
+2
+30
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 0
+v : 1
+
+Out:
+2
+30
+
+Heap:
+1 : 20
+2 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+v=10
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(new(a,22); (fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a)))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+new(a,22)
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+v : 10
+
+Out:
+
+Heap:
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(fork((wR(a,30); (v=32; (print(v); print(rH(a)))))); (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+fork((wR(a,30); (v=32; (print(v); print(rH(a))))))
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 1 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------

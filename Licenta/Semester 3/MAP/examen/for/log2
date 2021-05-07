@@ -1,0 +1,4054 @@
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(wR(a,30); (v=32; (print(v); print(rH(a)))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+wR(a,30)
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+
+Heap:
+1 : 22
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(v=32; (print(v); print(rH(a))))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+v=32
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 10
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+(print(v); print(rH(a)))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(v)
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+print(rH(a))
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------
+
+Program state -= 2 =-
+
+
+ExeStack:
+
+SymTable:
+a : 1
+v : 32
+
+Out:
+10
+30
+32
+30
+
+Heap:
+1 : 30
+
+FileTable:
+
+------------------

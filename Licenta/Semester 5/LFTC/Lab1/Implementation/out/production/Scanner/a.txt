@@ -1,0 +1,9 @@
+VAR c int;
+b int;
+a string;
+{
+a = 5;
+b = a + 2;
+c = "adas";
+write(a + b)
+}

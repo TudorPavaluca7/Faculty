@@ -1,0 +1,7 @@
+VAR a int;
+b int;
+{
+.a = 5;
+b = a + 2;
+write(a + b)
+}

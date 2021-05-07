@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+ <html> 
+ 	<head> 
+ 		 <title>AdoptionList</title> 
+	</head> 
+ 	<body> 
+ 		<table border="1"> 
+ 		<tr>
+			<td>Breed</td> 
+ 			<td>Name</td> 
+ 			<td>Age</td> 
+ 			 <td>Weight</td>
+			<td>Link to photo</td> 
+ 		 </tr>
+		<tr>
+			<td>Huskey</td>
+			<td>Oscar</td>
+			<td>5</td>
+			<td>20</td>
+			<td><a href=https://www.google.ro/search?q=husky&client=firefox-b-ab&dcr=0&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjrs6awz4XaAhUNaFAKHV0lCvUQ_AUICigB&biw=1366&bih=693#imgrc=HXopYIUkNOGE3M:>Link</td>
+		</tr>
+		<tr>
+			<td>Beagle</td>
+			<td>Toby</td>
+			<td>10</td>
+			<td>30</td>
+			<td><a href=https://www.google.ro/search?q=beagle&client=firefox-b-ab&dcr=0&tbm=isch&source=iu&ictx=1&fir=hPlgeHW2mBsILM%253A%252CLWcY9XL5rvXonM%252C_&usg=__QC6OnYL_DBYUOAZpJglJWWSjm_M%3D&sa=X&ved=0ahUKEwiJpf_80YXaAhWRYVAKHfHGC_wQ_h0I6wEwFQ#imgrc=hPlgeHW2mBsILM:>Link</td>
+		</tr>
+		</table>
+	</body>
+</html>
